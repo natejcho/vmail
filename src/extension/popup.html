@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Vmail</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+  <div id="search-container" class="list-item">
+    <img id="search-icon" class="button" src="https://raw.githubusercontent.com/twbs/icons/master/icons/search.svg"
+      alt="">
+    <input id="search-input" class="input" placeholder="Search Virtual Emails" />
+  </div>
+  <div id="vmail-container" class="list-item">
+    <input id="vmail-input" class="input" readonly /><span id="domain">@vmail.com</span><input id="output"></input>
+    <img id="copy-button" class="button" src="https://raw.githubusercontent.com/twbs/icons/master/icons/clipboard.svg"
+      alt="">
+  </div>
+  <div id="logout-container" class="button list-item">
+    <img id="logout-icon" src="https://raw.githubusercontent.com/twbs/icons/master/icons/box-arrow-left.svg" alt="">
+    <span style="width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;">Logout</span>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "Virtual Mail",
+  "version": "1.0",
+  "description": "Create temporary emails for creating account",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "icons": {
+    "16": "vmail_icon_16x16.png",
+    "48": "vmail_icon_48x48.png",
+    "128": "vmail_icon_128x128.png"
+  },
+  "manifest_version": 2
+}

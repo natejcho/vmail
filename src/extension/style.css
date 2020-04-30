@@ -1,0 +1,74 @@
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  width: 350px;
+}
+
+#domain {
+  padding: 0 5px;
+  box-sizing: border-box;
+  opacity: .5;
+  width: 100%;
+}
+
+#copy-button {
+  height: 16px;
+  width: 16px;
+}
+
+#output {
+  display: none;
+}
+
+#search-container {
+  background-color: #F7F9FA;
+  border-bottom: 1px solid #E7E8EA;
+}
+
+#search-icon {
+  height: 16px;
+  width: 16px;
+}
+
+#search-input {
+  background-color: transparent;
+}
+
+#vmail-container {
+  background-color: #F7f9fa;
+  border-bottom: 1px solid #e7e8ea;
+  grid-template-columns: 1fr 100px 30px;
+  padding: 12px 18px;
+}
+
+#vmail-input {
+  text-align: end;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.input {
+  border: none;
+  outline: none;
+  height: 30px;
+  padding-right: 5px;
+  box-sizing: border-box;
+  width: 100%;
+  color: black;
+  font-size: 14px;
+}
+
+.list-item {
+  align-items: center;
+  background: #fff;
+  border-top: 1px solid #e7e8ea;
+  display: grid;
+  grid-template-columns: 36px 1fr;
+  justify-items: center;
+  padding: 12px 18px;
+}
